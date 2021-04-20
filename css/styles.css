@@ -13,8 +13,17 @@ html {
 	overflow: hidden;
 	padding-top: 6rem;
 	padding-bottom: 12rem;
-	background-color: #333333;
+	background-image: url("../images/back.JPG");
 }
+
+.header2 {
+	position: relative;
+	overflow: hidden;
+	padding-top: 6rem;
+	padding-bottom: 6rem;
+	background-image: url("../images/mapog.JPG");
+}
+
 .header .text-container {
 	margin-bottom: 4rem;
 	text-align: center;
@@ -24,6 +33,9 @@ html {
 .header .h1-large {
 	margin-bottom: 50px;
 	color: #ffffff;
+	background-color: black;
+	padding: 20px;
+
 }
 
 .header .p-large {
@@ -34,14 +46,14 @@ html {
 	-webkit-animation: wave calc(var(--speed, 0) * 1s) infinite linear;
 	animation: wave calc(var(--speed, 0) * 3s) infinite linear;
 	background-image: url("../images/wave-infinite.svg");
-	background-size: 50% 100%;
-	bottom: -5%;
+	background-size: 93% 126%;
+	bottom: 0%;
 	left: 0;
 	opacity: var(--opacity);
 	position: absolute;
 	right: 0;
 	width: calc(var(--width, 0) * 1vw);
-	background-color: #00adc4;
+	background-color: #c0262e;
 }
 
 .header .wave:nth-of-type(1) {
@@ -103,21 +115,21 @@ li a{
 }
 
 li a:focus{
-	border-color:#9c6af1;
+	border-color:#c4151e;
 	background-color:#fafafa;
 	color:#020202;
 	font-weight: bold;
 }
 
 li a:hover{
-	background-color:#00adc4;
+	background-color:#c4151e;
 	color:#181717;
 	font-weight: bold;
 }
 
 .active{
 	display: block;
-	background-color:#00adc4;;
+	background-color:#d53b42;
 }
 
 @media only screen and (max-width: 350px) {
@@ -135,16 +147,16 @@ li a:hover{
 .link{
 	font-weight:bold;
 	text-decoration: none;
-	color:#00c8ec;
+	color:#ec0800;
 }
 
 .link:hover{
-	color:#bdc642;
+	color:#b2c642;
 
 }
 
 .link:focus{
-	background-color: #c0eb04;
+	background-color: #0468eb;
 	color:#000000;	
 }		
 
@@ -171,6 +183,7 @@ li a:hover{
 	color:#1f1f1f;
 	padding-left: 2vw;
 	padding-right: 2vw;
+	font-weight: bolder;
 }
 
 
